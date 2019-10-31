@@ -11,4 +11,7 @@
 |
 */
 
-Route::get('/', 'HomeCtrl@index');
+Route::get('/', function(){
+    return view('index');
+});
+//Route::get('/', 'HomeCtrl@index');
